@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img-hero{
+    width: 16%;
+}
+h1{
+    color: var(--Primary-colour, #FBB149);
+    text-align: center;
+    width: 200px;
+    /* Headline Medium */
+    font-family: Roboto Serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 128.571% */
+    margin-top: 4%;
+}
+.h1{
+    width: 260px;
+
+}
+.successNote{
+    width: 320px;
+    color: var(--Words, rgba(0, 0, 0, 0.50));
+    /* Body Small/Label Large */
+    font-family: Roboto Serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+    top: 40px;
+    position: relative;
+}
+.btn-active{ 
+    display: flex;
+    width: 320px;
+    height: 45px;
+    padding: 13px 126px 12px 135px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: var(--Secondary-colour, #589C48);
+    background: var(--Secondary-colour, #589C48);
+    margin-top: 8%;
+
+}
+.btn-active a{ 
+   font-family: Roboto Serif;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 20px; /* 142.857% */
+   color: #fff;
+   text-transform:uppercase;
+}
+@media screen and (max-width: 768px){
+    .img-hero{
+        width: 26%;
+    }
+}
+@media screen and (max-width: 426px){
+    .img-hero{
+        width: 40%;
+    }
+}
+.status{
+    width: 150px;
+    height: 118px;
+    flex-shrink: 0;
+    top: 40px;
+    position: relative;
+}
+.mainImage{
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}

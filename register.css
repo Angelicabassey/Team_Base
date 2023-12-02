@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.img-header{
+    background: var(--Primary-colour, #FBB149);
+    width: 320px;
+   
+}
+.mtop{
+    margin-top: 1.2%;
+
+}
+.intro{
+    margin-top: 3%;
+}
+.hi{
+    color: rgba(0, 0, 0, 0.50);
+
+    /* Title Large */
+    font-family: Roboto Serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 127.273% */
+}
+.sub-text{
+    color: rgba(0, 0, 0, 0.50);
+
+    /* Title Medium/Body Large */
+    font-family: Roboto Serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+}
+input{
+    
+    border-radius: 10px;
+    border: 1px solid var(--Secondary-colour, #589C48);
+    background: var(--White-colour, #FFF);
+}
+.Fname{
+    background-image: url("./img/mdi_user-outline.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 320px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    margin-bottom: 12px;height: 45px;
+}
+.Lname{
+    background-image: url("./img/mdi_user-outline.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 320px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    margin-bottom: 12px;
+}
+.Eaddress{
+    background-image: url("./img/eva_email-outline.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 320px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    margin-bottom: 12px;
+}
+.password{
+    background-image: url("./img/solar_lock-password-bold.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 320px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    margin-bottom: 12px;
+}
+.Cpassword{
+    background-image: url("./img/solar_lock-password-bold.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 320px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    margin-bottom: 12px;
+}
+.btn-active{ 
+    display: flex;
+    width: 320px;
+    height: 45px;
+    padding: 13px 126px 12px 135px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: var(--Secondary-colour, #589C48);
+    background: var(--Secondary-colour, #589C48);
+
+}
+.btn-active a{ 
+   font-family: Roboto Serif;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 20px; /* 142.857% */
+   color: #fff;
+   text-transform:uppercase;
+}
+/*  */
+.checkbox{
+    display: flex;
+    gap: 40px;
+    margin-top: 5%;
+}
+.checkbox p{
+    color: var(--Words, rgba(0, 0, 0, 0.50));
+    /* Label Small */
+    font-family: Roboto Serif;
+    /* font-size: 11px; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 145.455% */
+}
+/* line */
+.line-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.line{
+    width: 75.294px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.50);
+}
+.joinLink{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-content: center;
+    text-align: center;
+}
+.joinLink img{
+    width: 34px;
+    height: 34px;
+}
+
+/*  */
+.acct{
+    color: var(--Words, rgba(0, 0, 0, 0.50));
+
+/* Title Medium/Body Large */
+font-family: Roboto Serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+/*  */
+@media screen and (max-width: 768px){
+    .mtop{
+        margin-top: 3%;
+    }
+
+} 
+ 
+
+/*  */

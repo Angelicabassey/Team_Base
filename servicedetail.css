@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto Serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    /* text-align: center; */
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+    gap: 30px;
+    background: ;
+
+
+}
+@media screen and (max-width: 320px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center;
+        gap: 50px;
+        margin-left: 30px;
+    
+    }
+}
+header{
+    padding-top: 20px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 80px; */
+    width: 320px;  
+    border-radius: 10px;
+}
+.header p{
+        color: var(--Primary-colour, #FBB149);
+
+    /* Title Medium/Body Large */
+    font-family: Roboto Serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.containerBox{
+    border-radius: 10px;
+background: var(--Nude-white, #F5F5F5);
+padding: 20px;
+}
+.serviceContainer{
+    width: 320px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 20px;
+}
+.serviceBox{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* gap: 100px; */
+        width: 318px;
+        height: 30px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        border: 1px solid var(--Secondary-colour, #589C48);
+        background: var(--White-colour, #FFF);
+        padding: 10px;
+
+        
+}  
+.serviceHeader{     
+    margin-top: 20px; 
+    line-height: 40px;  
+    /* float: left !important; */
+}   
+.serviceBtn{
+    display: flex;
+width: 320px;
+height: 45px;
+padding: 13px 0px 12px 0px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 20px;
+border: 1px solid #589C48;
+background: var(--Secondary-colour, #589C48);
+color: var(--White-colour, #FFF);
+
+}
+.serviceBtn a{
+    color: var(--White-colour, #FFF);
+    text-align: center;
+
+    /* Title Small/Body medium/Label Large */
+    font-family: Roboto Serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+.active{
+    color: #589C48;
+}
+.circle{
+    width: 19px;
+    height: 16px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #589C48;
+}
+.pin{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+.pin img{
+    width: 30.88px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.cardpin p{
+    font-size: 12px;
+}
