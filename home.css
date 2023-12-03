@@ -211,7 +211,7 @@ input{
         padding-left: 40px;
         padding-right: 40px; 
         right: 310px;
-        bottom: 20px;
+        bottom: 40px;
         position: fixed;
     }    
 }
@@ -246,15 +246,28 @@ input{
     }
     .navbar{
         
-        padding: 10px;
-        padding-left: 40px;
-        padding-right: 40px; 
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px; 
         right: 5px;
-        bottom: 1px;
+        bottom:1px;
         position: fixed;
     }    
 }
 @media screen and (max-width: 320px){
+    .btn-active{ 
+        display: flex;
+        width: 240px;
+    }
+    .navbar{
+        gap: 30px;
+        padding: 5px;
+        padding-left: 30px;
+        padding-right: 32px; 
+        right: 2px;
+        bottom:1px;
+        position: fixed;
+    }  
     header{
         background: var(--Primary-colour, #FBB149);
         padding: 2px;

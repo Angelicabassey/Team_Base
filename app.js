@@ -1,10 +1,4 @@
 
-function review(){
-    var reviewSection = document.getElementById("reviewSection");
-
-    reviewSection.style.display = (reviewSection.style.display === "block") ? "none" : "block";
-  }
-
 // REGISTRATION CODE
 
 function validateForm() {
@@ -44,13 +38,6 @@ function login() {
   }
 }
 // 
-const textBtn = document.getElementById('textBtn');
-
-function changeText() {
-  const initialText = 'CONFIRM'; // Change this to your initial button text
-
-  textBtn.innerHTML = `<span style="color: #fff">Button clicked</span>`;
-}
 
 
 
