@@ -10,10 +10,64 @@
   <div class="container">
     <header>
        <div class="header">
-        <div>
-            <img src="./img/ph_list-dashes.png" alt="">
-        </div>
-        <div>
+            <!--  -->
+            <div>
+              <img src="./img/ph_list-dashes.png" onclick="toggleMenu()" alt="">
+                          <!--  -->
+                          <section class="navContainer" id="navContainer">
+                              <nav >
+                                <h1 class="logo">Errand<span style="color:green;">s</span></h1>
+                                <img src="./img/ph_x.png" alt="">
+                              </nav>
+                              <section class="subNav-section">        
+                                <div class="subNav">
+                                  <div class="nav1">
+                                      <img src="./img/basil_notification-solid.png" alt="">
+                                      <p>Notifications</p>
+                                    </div>
+                                      <a href=""><img src="./img/fe_arrow-right.png" alt=""></a>
+                                </div>
+                                <!--  -->
+                                <div class="subNav">
+                                  <div class="nav1">
+                                      <img src="./img/material-symbols_security.png" alt="">
+                                      <p>Privacy & Security</p>
+                                    </div>
+                                      <a href=""><img src="./img/fe_arrow-right.png" alt=""></a>
+                                </div>
+                                <!--  -->
+                                <div class="subNav">
+                                  <div class="nav1">
+                                      <img src="./img/iconoir_headset-help.png" alt="">
+                                      <p>Customer Support</p>
+                                    </div>
+                                      <a href=""><img src="./img/fe_arrow-right.png" alt=""></a>
+                                </div>
+                                <!--  -->
+                                <div class="subNav">
+                                  <div class="nav1">
+                                      <img src="./img/game-icons_archive-register.png" alt="">
+                                      <p>Register as Vendor</p>
+                                    </div>
+                                      <a href=""><img src="./img/fe_arrow-right.png" alt=""></a>
+                                </div>
+                                <!--  -->
+                                <div class="subNav">
+                                  <div class="nav1">
+                                      <img src="./img/game-icons_archive-register.png" alt="">
+                                      <p>Vendor Bookings</p>
+                                    </div>
+                                      <a href=""><img src="./img/fe_arrow-right.png" alt=""></a>
+                                </div>
+                                <!--  -->
+                              </section>
+                              <!--  -->
+                            </section>
+                      
+                          <!--  -->
+              
+          </div>
+          <div>
             <p id="username">p</p>
         </div>
         <div id="image" class="image"></div>
@@ -38,16 +92,10 @@
         </div>
     </section>
     <!--  -->
-    <!-- <section >
-        <img class="mainImage" src="./img/getz 1-PhotoRoom 1.png" alt="">
-        <div class="btn-active-sec">
-            <button class="btn-active"><a href="">CUSTOMIZE TASK</a></button>
-        </div>
-        <div style="margin-top: 40px;"></div>
-    </section> -->
+ 
         <!--  -->
         <section >
-            <img  src="./img/getz 1-PhotoRoom 1.png" alt="">
+            <img class="mainImage" src="./img/getz 1-PhotoRoom 1.png" alt="">
             <div class="btn-active-sec">
                 <button class="btn-active"><a href="./taskschedule.html">CUSTOMIZE TASK</a></button>
     
@@ -58,7 +106,7 @@
     <!--  -->
     <!--  -->
     <section class="nav-section">
-        <div class="navbar">
+        <div class="navbar homeNav">
             <div>
                 <img src="./img/material-symbols_home-outline.png" alt="">
                 <p><a class="active" href="./home.html">Home</a></p>
@@ -80,5 +128,6 @@
         </div>
     </section>
   </div>
+  <script src="./home.js"></script>
 </body>
 </html>
