@@ -14,6 +14,7 @@ body{
     justify-content: center !important;
     align-items: center;
     gap: 30px;
+    /* overflow-x: hidden; */
 
 }
 @media screen and (max-width: 320px){
@@ -226,22 +227,22 @@ input{
 @media screen and (max-width: 426px) {
 
     .section {
-        width: 86%;
+        width: 80%;
         margin-left: 30px;
   
       }
+      .reviewbtn{
+        width: 300px;
+    }
   }
 
 @media screen and (max-width: 376px) {
-    .reviewbtn{
-        width: 300px;
-
-    }
     .section {
-        width: 90%;
-        margin-left: 20px;
-  
+                margin-left: 20px;
       }
+      .reviewbtn{
+        width: 260px;
+    }
   }
 @media screen and (max-width: 320px) {
     .reviewbtn{

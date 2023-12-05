@@ -295,7 +295,7 @@ line-height: 28px; /* 127.273% */
 }
 
 .book-btn{
-    float: inline-end;
+    float: inline-end !important;
     line-height: 500px;
 }
 .book-btn button{

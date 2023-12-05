@@ -41,7 +41,6 @@ header{
 .navContainer{
         display: flex;
         flex-direction: column;
-        /* gap: 26px; */
         border: 1px solid ;
         width: 275px;
         height: 361px;
@@ -186,17 +185,7 @@ input{
     border: 1px solid var(--Primary-colour, #FBB149);
     background: var(--White-colour, #FFF);
 }
-@media screen and (max-width: 376px){
-    
-    /* .box{
-        width: 50px;
-       height: 50px;
-     }
-     .box img{
-        margin-bottom: 40px;
-        margin-right: 20%;
-    } */
-}
+
 .box img{
     margin-top: 26%;
     margin-left: 16px;
@@ -204,13 +193,10 @@ input{
 .box p{
     color: var(--Words, rgba(0, 0, 0, 0.50));
     text-align: center;
-
-    /* Label Small */
     font-family: Roboto Serif;
-    /* font-size: 11px; */
     font-style: normal;
     font-weight: 400;
-    line-height: 16px; /* 145.455% */
+    line-height: 16px; 
     margin-top: 26%;
 
 }
@@ -221,14 +207,12 @@ input{
     display: flex;
     width: 320px;
     height: 45px;
-    /* padding: 13px 126px 12px 135px; */
     justify-content: flex-end;
     align-items: center;
     flex-shrink: 0;
     border-radius: 20px;
     border: var(--Secondary-colour, #589C48);
     background: var(--Secondary-colour, #589C48);
-    /* margin-top: 20px; */
 
 }
 .btn-active a{ 
