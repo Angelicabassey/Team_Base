@@ -7,17 +7,22 @@
 
 .container{
     border-radius: 12px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
-   overflow-x: hidden;
+   
        
 }
 header{
     background: var(--Primary-colour, #FBB149);
     padding: 20px;
+    /* width: 100%; */
+    /* overflow: hidden; */
+
+
 }
 .header{
     display: flex;
@@ -26,8 +31,8 @@ header{
     /* gap: 80px; */
     width: 320px;   
 }
-
 /*  */
+
 
 .logo{
     color: var(--Primary-colour, #FBB149);
@@ -56,8 +61,8 @@ header{
         position: absolute;
         display: none;
   }
-.subNav-section{
-        display: flex;
+  .subNav-section{
+ display: flex;
         flex-direction: column;
         gap: 20px;
         top: 30px;
@@ -66,9 +71,8 @@ header{
   nav{
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
   }
-  
   nav img{
       width: 30px;
       height: 30px;
@@ -123,15 +127,16 @@ header{
 }
 .taskP{
     color: var(--Secondary-colour, #589C48);
-    text-align: center;
-    /* Title Medium/Body Large */
-    font-family: Roboto Serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    top: 60px;
-    position: relative;
-    /* 150% */
+text-align: center;
+
+/* Title Medium/Body Large */
+font-family: Roboto Serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+top: 60px;
+position: relative;
+ /* 150% */
 }
 .taskcode{
     margin-top: 100px;
@@ -185,17 +190,6 @@ input{
     border-radius: 10px;
     border: 1px solid var(--Primary-colour, #FBB149);
     background: var(--White-colour, #FFF);
-}
-@media screen and (max-width: 376px){
-    
-    /* .box{
-        width: 50px;
-       height: 50px;
-     }
-     .box img{
-        margin-bottom: 40px;
-        margin-right: 20%;
-    } */
 }
 .box img{
     margin-top: 26%;
@@ -270,7 +264,7 @@ input{
     right: 440px;
     bottom: 1px;
     position: fixed;
-
+    /* overflow: hidden; */
 
 }  
 .active{
@@ -279,11 +273,12 @@ input{
 .nav-link{
     color: var(--Words, rgba(0, 0, 0, 0.50)) !important;
     text-align: center;
+    /* Label Small */
     font-family: Roboto Serif;
     font-size: px;
     font-style: normal;
     font-weight: 400;
-    line-height: 16px; 
+    line-height: 16px; /* 145.455% */
 }
 .MS{
         margin-top: 10%;
@@ -326,19 +321,22 @@ input{
 }
 @media screen and (max-width: 376px){
     header{
-        padding: 30px;
+        background: var(--Primary-colour, #FBB149);
+        padding: 2px;
+        /* width: 100%; */
+    
     }
     .navbar{
+        border: 2px solid #FBB149;  
         padding: 0px;
-        padding-left: 14px;
-        padding-right: 9px; 
-        right: 10px;
+        padding-left: 10px;
+        padding-right: 10px; 
+        right: 40px;
         bottom:1px;
         position: fixed;
     }    
 }
 @media screen and (max-width: 320px){
-    
     .btn-active{ 
         display: flex;
         width: 240px;
@@ -348,10 +346,31 @@ input{
         padding: 5px;
         padding-left: 30px;
         padding-right: 32px; 
-        right: 0px;
+        right: 2px;
         bottom:1px;
         position: fixed;
+    }  
+    header{
+        background: var(--Primary-colour, #FBB149);
+        padding: 2px;
+        /* width: 100%; */
+    
     }
-
+    .box{
+        width: 55px;
+       height: 55px;
+    }
  
-} 
+}
+.mainImage{
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}

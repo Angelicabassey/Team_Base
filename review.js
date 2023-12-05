@@ -1,5 +1,5 @@
-function review(){
-    var reviewSection = document.getElementById("reviewSection");
+function review() {
+  var reviewSection = document.getElementById("reviewSection");
+  reviewSection.style.display = (reviewSection.style.display === "flex") ? "none" : "flex";
+}
 
-    reviewSection.style.display = (reviewSection.style.display === "block") ? "none" : "block";
-  }
