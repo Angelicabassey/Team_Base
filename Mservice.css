@@ -70,6 +70,9 @@ input{
     border: 1px solid var(--Primary-colour, #FBB149);
     background: var(--White-colour, #FFF);
 }
+.box:hover{
+    background: #FBB149;
+}
 .box img{
     margin-top: 26%;
 }
